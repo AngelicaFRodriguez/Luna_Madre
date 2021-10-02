@@ -85,7 +85,10 @@ nav a:active {
 display: flex; 
 align-items: center; 
 justify-content: center; }
-
+.link{
+	color:white;
+	text-align:center;
+}
 footer{
 	text-align:center;
 }
