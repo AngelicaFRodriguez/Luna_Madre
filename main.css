@@ -106,11 +106,11 @@ footer{
 /* On screens that are 992px or less, set the font size larger so the text is more visible*/
 @media screen and (max-width: 992px){
 #main_container {
-	font-size:28px;
+	font-size:30px;
 	text-align:left;
 	}
 	.article2{
-	font-size:30px;
+	font-size:35px;
 	text-align:left;
 	}
 }
