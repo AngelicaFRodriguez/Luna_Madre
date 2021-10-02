@@ -84,11 +84,24 @@ nav a:active {
 .video{
 display: flex; 
 align-items: center; 
-justify-content: center; }
+justify-content: center;
+}
+
 .link{
 	color:white;
 	text-align:center;
+	font-family:eurostile, sans-serif;
+	font-weight:500;
+	font-style:normal;
+	font-size:25px;
 }
 footer{
 	text-align:center;
+}
+/* On screens that are 992px or less, set the font size larger and text to the left */
+@media screen and (max-width: 992px){
+#main_container {
+	font-size:28px;
+	text-align:left;
+	}
 }
