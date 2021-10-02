@@ -95,6 +95,11 @@ justify-content: center;
 	font-style:normal;
 	font-size:25px;
 }
+a {
+  color:darkred;
+  background-color:#0D161D;
+}
+
 footer{
 	text-align:center;
 }
