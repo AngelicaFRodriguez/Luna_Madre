@@ -103,13 +103,13 @@ a {
 footer{
 	text-align:center;
 }
-/* On screens that are 992px or less, set the font size larger and text to the left */
+/* On screens that are 992px or less, set the font size larger so the text is more visible*/
 @media screen and (max-width: 992px){
 #main_container {
 	font-size:28px;
 	text-align:left;
 	}
-	.article2{
+	form{
 	font-size:30px;
 	background-color:#0D161D;
 	}
