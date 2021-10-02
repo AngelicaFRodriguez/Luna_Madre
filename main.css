@@ -1,0 +1,91 @@
+@charset "utf-8";
+#main_container{
+	width:70%;
+	margin:0 auto;
+	height:400px;
+	font-family:eurostile, sans-serif;
+	font-weight:500;
+	font-style:normal;
+	font-size:25px;
+}
+.article1{
+	height:200px;
+	flex-grow:2;
+	color:white;
+	text-align:center;
+}
+.article2{
+	height:200px;
+	flex-grow:2;
+	color:whitesmoke;
+	text-align:center;
+}
+.flex-container{
+	display:flex;
+	background-color:gray;
+	flex-direction:column;
+	color:floralwhite
+}
+header{
+	width:100%;
+	color:antiquewhite;
+	font-family:elevon, sans-serif;
+	font-weight:400;
+	font-style:normal;
+	font-size:60px;
+	text-align:center;
+}
+
+body{
+	background-image:url("images/red_moon.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}	
+footer{
+	width:100%;
+	color:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+nav{
+	text-align:center;
+	font-size:23px;
+	font-family:eurostile, sans-serif;
+	font-weight:500;
+	font-style:normal;
+}
+nav a:link {
+  color:slateblue;
+  background-color:transparent;
+  text-decoration:none;
+}
+nav a:visited {
+  color:lightskyblue;
+  background-color:transparent;
+  text-decoration:line-through;
+}
+nav a:hover {
+  color:rebeccapurple;
+  background-color:transparent;
+  text-decoration:none;
+}
+nav a:active {
+  color:slateblue;
+  background-color:transparent;
+  text-decoration:none;
+}
+.video{
+display: flex; 
+align-items: center; 
+justify-content: center; }
+
+footer{
+	text-align:center;
+}
